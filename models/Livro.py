@@ -5,7 +5,8 @@ class Livro:
         self.__editora = editora
         self.__status = True
 
-    def isRented(self):
+    @property
+    def is_not_rented(self):
         return self.__status
 
     @property

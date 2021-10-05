@@ -1,5 +1,5 @@
 class Emprestimo:
-    def __init__(self, usuario, livro, data_de_devolucao, data_de_emprestimo):
+    def __init__(self, usuario, livro, data_de_emprestimo, data_de_devolucao):
         self.__usuario = usuario
         self.__livro = livro
         self.__data_de_devolucao = data_de_devolucao
