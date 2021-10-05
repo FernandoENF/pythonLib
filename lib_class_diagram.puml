@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Usuario {
+    nome
+    email
+    senha
+}
+class Livro {
+    titulo
+    autor
+    editora
+}
+class Emprestimo {
+    Usuario
+    Livro
+    data de emprestimo
+    data de devolução
+}
+
+@enduml
+
+// Um emprestimo só pode acontecer caso o livro esteja
+// disponivel
